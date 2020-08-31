@@ -1,0 +1,30 @@
+{
+  "name": "leetspeak",
+  "version": "1.0.0",
+  "description": "conversion tool for leetspeak",
+  "main": "index.js",
+  "bin": {
+    "convert": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnapearson/leetspeak.git"
+  },
+  "author": "Michaela Pearson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnapearson/leetspeak/issues"
+  },
+  "homepage": "https://github.com/mnapearson/leetspeak#readme",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "os": "^0.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
